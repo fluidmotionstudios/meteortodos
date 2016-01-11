@@ -30,6 +30,37 @@ body {
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
+.dropdown {
+  border-bottom: none;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+  border-bottom: #eee solid 1px;
+}
+
+li.checked {
+  color: #ccc;
+}
+
+li.checked .text {
+  text-decoration: line-through;
+}
+
+.delete-todo {
+  float: right;
+  font-weight: bold;
+  background: none;
+  font-size: 1em;
+  border: 0px;
+  position: relative;
+  color: red;
+}
 
 /* Customize container */
 @media (min-width: 768px) {
